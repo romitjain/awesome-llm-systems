@@ -53,6 +53,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
   - An introduction to batching in LLMs
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
 - [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)
+- [Optimizing AI Inference at Character.AI](https://blog.character.ai/optimizing-ai-inference-at-character-ai/)
 - [Throughput is all you need](https://cmeraki.github.io/throughput-is-all-you-need.html)
   - A primer on how to think about throughput in LLM systems. Talks about continuous batching, paged attention and the basics of vLLM orchestrator
 - [Flash-Decoding for long-context inference](https://pytorch.org/blog/flash-decoding/)
@@ -60,6 +61,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [Throughput is Not All You Need: Maximizing Goodput in LLM Serving using Prefill-Decode Disaggregation](https://hao-ai-lab.github.io/blogs/distserve/)
 - [One Kernel for All Your GPUs](https://hazyresearch.stanford.edu/blog/2025-09-22-pgl)
 - [Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving](https://arxiv.org/pdf/2407.00079)
+- [Inside Kaiju](https://blog.character.ai/technical/inside-kaiju-building-conversational-models-at-scale/)
 
 ## Kernels
 
@@ -71,9 +73,18 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [GPUs Go Brrr](https://hazyresearch.stanford.edu/blog/2024-05-12-tk)
 - [Look Ma, No Bubbles! Designing a Low-Latency Megakernel for Llama-1B](https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles)
 - [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)
+- [Matrix Multiplication on Blackwell: Part 1 - Introduction](https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction)
+- [Dissecting FlashInfer - A Systems Perspective on High-Performance LLM Inference](https://ydnyshhh.github.io/posts/flash_infer/)
+
+## Communication
+
+- [GPU networking basics](https://www.chipstrat.com/p/gpu-networking-basics-part-1)
+- [A Beginner's Guide to Interconnects in AI Datacenters](https://substack.com/home/post/p-173009699)
+- [Demystifying NCCL: An In-depth Analysis of GPU Communication Protocols and Algorithms](https://www.alphaxiv.org/abs/2507.04786)
 
 ## Misc
 
+- [Democratizing AI Compute](https://www.modular.com/democratizing-ai-compute)
 - [We reverse-engineered Flash Attention 4](https://modal.com/blog/reverse-engineer-flash-attention-4)
 
 ## Labs
