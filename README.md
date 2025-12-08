@@ -31,6 +31,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 ## Architecture
 
 - [TransMLA: MLA Is All You Need](https://arxiv.org/abs/2502.07864)
+- [Beyond Standard LLMs](https://magazine.sebastianraschka.com/p/beyond-standard-llms)
 
 ## Quantization
 
@@ -51,6 +52,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 
 - [How continuous batching enables 23x throughput in LLM inference while reducing p50 latency](https://www.anyscale.com/blog/continuous-batching-llm-inference)
   - An introduction to batching in LLMs
+- [Continuous batching from first principles](https://huggingface.co/blog/continuous_batching)
 - [Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)
 - [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)
 - [Optimizing AI Inference at Character.AI](https://blog.character.ai/optimizing-ai-inference-at-character-ai/)
