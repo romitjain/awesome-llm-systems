@@ -18,6 +18,7 @@ This repository aims to consolidate resources for learning about systems for LLM
 - [ELI5: FlashAttention](https://gordicaleksa.medium.com/eli5-flash-attention-5c44017022ad)
 - [Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
 - [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192)
+- [PyTorch and CPU-GPU Synchronizations](https://tomasruizt.github.io/posts/08_cpu_gpu_synchronization/)
 
 IMO, understanding parameter arithmetic is the key to performance optimization in LLMs.
 
@@ -77,12 +78,20 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [Inside NVIDIA GPUs: Anatomy of high performance matmul kernels](https://www.aleksagordic.com/blog/matmul)
 - [Matrix Multiplication on Blackwell: Part 1 - Introduction](https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction)
 - [Dissecting FlashInfer - A Systems Perspective on High-Performance LLM Inference](https://ydnyshhh.github.io/posts/flash_infer/)
+- [Notes About Nvidia GPU Shared Memory Banks](https://feldmann.nyc/blog/smem-microbenchmarks#/)
+- [Chasing 6+ TB/s: an MXFP8 quantizer on Blackwell](https://blog.fal.ai/chasing-6-tb-s-an-mxfp8-quantizer-on-blackwell/#/)
+    - Notes on packing quantization scales in a format required by downstream GEMM
 
 ## Communication
 
 - [GPU networking basics](https://www.chipstrat.com/p/gpu-networking-basics-part-1)
 - [A Beginner's Guide to Interconnects in AI Datacenters](https://substack.com/home/post/p-173009699)
 - [Demystifying NCCL: An In-depth Analysis of GPU Communication Protocols and Algorithms](https://www.alphaxiv.org/abs/2507.04786)
+
+## Lecture series
+
+- [Faster LLMs](https://faster-llms.vercel.app/)
+    - Has multiple lectures from industry leaders on topics around serving LLMs as applications and how they are different from traditional ML models and regular web services
 
 ## Misc
 
