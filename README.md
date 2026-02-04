@@ -81,6 +81,7 @@ IMO, understanding parameter arithmetic is the key to performance optimization i
 - [Notes About Nvidia GPU Shared Memory Banks](https://feldmann.nyc/blog/smem-microbenchmarks#/)
 - [Chasing 6+ TB/s: an MXFP8 quantizer on Blackwell](https://blog.fal.ai/chasing-6-tb-s-an-mxfp8-quantizer-on-blackwell/#/)
     - Notes on packing quantization scales in a format required by downstream GEMM
+- [Implementing a fast Tensor Core matmul on the Ada Architecture](https://www.spatters.ca/mma-matmul#/)
 
 ## Communication
 
